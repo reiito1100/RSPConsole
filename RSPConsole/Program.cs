@@ -10,7 +10,7 @@ namespace RSPConsole
         static void Main(string[] args)
         {
             ConsolePlayer consolePlayer = new ConsolePlayer("あなた");
-            CpuPlayer cpuPlayer = new CpuPlayer("コンピュータ");
+            CpuPlayer cpuPlayer = new CpuPlayer("CPU");
 
             Referee referee = new Referee();
 

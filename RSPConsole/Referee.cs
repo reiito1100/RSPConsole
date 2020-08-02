@@ -34,13 +34,13 @@ namespace RSPConsole
                 // p1の勝ち
                 if (Compare(p1, p2))
                 {
-                    Console.WriteLine($"あなたの勝ちです");
+                    Console.WriteLine($"{player1.GetName()}の勝ちです");
                     finished = true;
                 }
                 // p2の勝ち
                 if (Compare(p2, p1))
                 {
-                    Console.WriteLine($"あなたの負けです");
+                    Console.WriteLine($"{player2.GetName()}の勝ちです");
                     finished = true;
                 }
             }
