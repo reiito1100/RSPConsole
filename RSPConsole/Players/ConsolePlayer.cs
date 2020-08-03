@@ -20,7 +20,7 @@ namespace RSPConsole.Players
 
         public RSPType ChoiceRSP()
         {
-            Console.WriteLine("「出す手を選択してください (1 : グー  2 : チョキ  3 : パー)」を表示");
+            Console.WriteLine("出す手を選択してください (1 : グー  2 : チョキ  3 : パー)");
 
             RSPType choice;
 
